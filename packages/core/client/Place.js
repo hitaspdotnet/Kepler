@@ -79,7 +79,7 @@ Kepler.Place = Class.extend({
 			var iconOpts = K.settings.public.map.icon;
 			
 			self.icon = new L.NodeIcon({
-				/*conSize: new L.Point(iconOpts.iconSize),
+				/*iconSize: new L.Point(iconOpts.iconSize),
 				iconAnchor: new L.Point(iconOpts.iconAnchor),
 				popupAnchor: new L.Point(iconOpts.popupAnchor),*/				
 				nodeHtml: L.DomUtil.create('div')
